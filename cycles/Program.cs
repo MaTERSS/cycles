@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace CSharplight
@@ -8,11 +8,14 @@ namespace CSharplight
         static void Main(string[] args)
         {
             int quantity;
+            Console.WriteLine("Введите предлложение");
+            string offer = Console.ReadLine();
             Console.WriteLine("Введите число,сколько раз будет выведена фраза:");
             quantity = Convert.ToInt32(Console.ReadLine());
-            while (quantity-- > 0)
+            for (int i = 0; i < quantity; i++) 
+            
             {
-                Console.WriteLine("Кратос бегает по горам");
+                Console.WriteLine(offer);
             }
         }
     }
