@@ -12,11 +12,12 @@ namespace CSharplight
             string offer = Console.ReadLine();
             Console.WriteLine("Введите число,сколько раз будет выведена фраза:");
             quantity = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < quantity; i++) 
             
+            for (int i = 0; i < quantity; i++)            
             {
                 Console.WriteLine(offer);
             }
+            
         }
     }
 }
