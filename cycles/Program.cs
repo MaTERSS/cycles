@@ -16,8 +16,7 @@ namespace CSharplight
             for (int i = 0; i < quantity; i++)            
             {
                 Console.WriteLine(offer);
-            }
-            
+            }            
         }
     }
 }
